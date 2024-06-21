@@ -1,0 +1,59 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar-item {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    background-color: #444;
+}
+
+.navbar-burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.navbar-burger span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-burger {
+        display: none;
+    }
+}
+
+.is-active {
+    display: flex;
+}
