@@ -1,62 +1,140 @@
 /* src/App.css */
 
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
+  text-align: center;
+  color: #333;
+}
+
+.hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-/* src/App.css */
-
-/* src/App.css */
-
-.App {
-  text-align: center;
-}
-
-.main-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  margin: auto 4rem;
 }
 
 .image-container {
-  flex: 1;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .main-image {
   width: 200px;
   height: 200px;
-  border-radius: 50%; /* Makes the image circular */
+  border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #FFC0CB;
 }
 
 .welcome-text {
-  flex: 2;
-  text-align: left;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  color: #FF7F50; /* Coral */
+}
+
+p {
+  color: #333;
+}
+
+footer {
+  background-color: #98FF98; /* Mint Green */
+  padding: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.main-content {
+  padding: 2rem 1rem;
+}
+
+.content-section {
+  padding: 3rem 1rem;
+  background-color: #FFF;
+  text-align: left;
+  margin: 0 2rem;
+}
+
+.content-section h2 {
+  color: #FF7F50; /* Coral */
+  margin-bottom: 1rem;
+}
+
+.content-section p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.features {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+}
+
+.feature {
+  background-color: #FFDAB9; /* Peach */
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.feature h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  color: #333;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #FF7F50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.cta-button:hover {
+  background-color: #E57373;
+}
+
+@media (min-width: 768px) {
+
+  .hero-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content {
+    margin: 1rem 6rem 0 6rem;
+  }
+
+  .main-image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .content-section {
+    margin: 0 8rem;
+  }
+
+  .features {
+      flex-direction: row;
+      justify-content: space-between;
+  }
 }

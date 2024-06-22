@@ -1,0 +1,27 @@
+.article-container {
+    margin: 2rem;
+    text-align: left;
+}
+
+h1 {
+    margin: 2rem auto 3rem auto;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: .3px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .article-container {
+        margin: 2rem 4rem;
+    }
+
+
+}
