@@ -16,7 +16,7 @@ function HealthTopics() {
                 <div className="topic">
                     <h3>Fitness</h3>
                     <p>Discover effective fitness routines and exercises.</p>
-                    <Link to="/pots">Read more</Link>
+                    <Link to="/female-training">Read more</Link>
                 </div>
                 <div className="topic">
                     <h3>Mental Health</h3>

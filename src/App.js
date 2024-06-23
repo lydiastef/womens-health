@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import HealthTopics from './pages/health';
 import Pots from './posts/pots';
+import FemaleTraining from './posts/female-training';
 import './App.css';
 import mainImage from './images/women2.avif';
 
@@ -48,6 +49,7 @@ function App() {
                         } />
                         <Route path="/health" element={<HealthTopics />} />
                         <Route path="/pots" element={<Pots />} />
+                        <Route path="/female-training" element={<FemaleTraining />} />
                     </Routes>
                 </main>
                 <Footer />
