@@ -1,5 +1,5 @@
 import React from 'react';
-import './female-training.css'
+import './style.css'
 import Contraceptives from '../images/contraceptives.avif'
 import Running from '../images/running.avif'
 import Strength from '../images/strength.avif'

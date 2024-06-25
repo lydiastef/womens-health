@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Link to="/health">Health Topics</Link>
                 </div>
                 <div className="navbar-item">
-                    <a href="#wellness">Fitness & Nutrition</a>
+                <Link to="/fitness">Fitness & Nutrition</Link>
                 </div>
                 <div className="navbar-item">
                     <a href="#conditions">Conditions & Diseases</a>

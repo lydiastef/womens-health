@@ -9,13 +9,13 @@ function HealthTopics() {
             <p>Welcome to the Health Topics page. Here you can find a variety of articles and resources about women's health.</p>
             <div className="topics-list">
                 <div className="topic">
-                    <h3>Nutrition</h3>
-                    <p>Learn about the best nutrition practices for a healthy lifestyle.</p>
-                    <Link to="/pots">Read more</Link>
+                    <h3>Mediterranean Diet</h3>
+                    <p>Learn about the mediterranean diet.</p>
+                    <Link to="/mediterranean">Read more</Link>
                 </div>
                 <div className="topic">
                     <h3>Fitness</h3>
-                    <p>Discover effective fitness routines and exercises.</p>
+                    <p>Discover effective fitness routines and exercises for women.</p>
                     <Link to="/female-training">Read more</Link>
                 </div>
                 <div className="topic">

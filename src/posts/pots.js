@@ -1,5 +1,5 @@
 import React from 'react';
-import './pots.css'
+import './style.css'
 
 const PotsArticle = () => {
   return (
