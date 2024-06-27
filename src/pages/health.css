@@ -1,7 +1,7 @@
 /* src/components/HealthTopics.css */
 
 .health-topics {
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     background-color: #f9f9f9;
     color: #333;
   }
@@ -15,12 +15,14 @@
   .topics-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
   }
   
   .topic {
     background-color: #FFDAB9; /* Peach */
     padding: 1.5rem;
+    width: 304px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -33,17 +35,43 @@
   .topic p {
     color: #333;
   }
+
+  .page-image {
+    margin: auto;
+    display: flex;
+    width: 248px;
+    border-radius: 4%;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF6347;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+  background-color: #c24b35;
+}
+
   
   @media (min-width: 768px) {
     .topics-list {
       flex-direction: row;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 2rem;
     }
   
     .topic {
-      flex: 1 1 calc(33.333% - 1rem);
+      flex: 1 1 calc(30% - 2rem);
       box-sizing: border-box;
+      width: 280px;
     }
   }
   

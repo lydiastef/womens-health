@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css'
-import Contraceptives from '../images/contraceptives.avif'
-import Running from '../images/running.avif'
-import Strength from '../images/strength.avif'
+import Alone1 from '../images/alone1.avif'
+import Alone2 from '../images/alone2.avif'
+import Alone3 from '../images/alone3.avif'
 
 const Loneliness = () => {
   return (
@@ -13,6 +13,7 @@ const Loneliness = () => {
         <h2>Introduction</h2>
         <p>In today's fast-paced world, loneliness and social isolation have become increasingly common issues, particularly among women. However, it's important to distinguish between loneliness, which poses significant health risks, and the choice of solitude, often embraced by introverts and autistic individuals. It's important that we understand these differences so we are able to better address mental health needs and promote well-being among women.</p>
       </section>
+      <img src={Alone1} alt="lonely woman" className="image1" />
 
       <section>
         <h2>Loneliness vs. Solitude</h2>
@@ -31,6 +32,7 @@ const Loneliness = () => {
         <p>For introverted or autistic women, solitude can be a sanctuary. Introverts often prefer deep, meaningful conversations with a few close friends over large social gatherings. This preference doesn't mean they are lonely; rather, they draw energy and comfort from quiet time alone. Similarly, many autistic individuals may find social interactions overwhelming and seek solitude to decompress and process their thoughts.</p>
         <p>Research indicates that even introverted individuals can benefit from social connections, but their need for social interaction is different. They may thrive on less frequent, but more intimate, interactions. Studies have shown that introverts can experience increased happiness when they engage in deeper conversations and when they are able to maintain a few strong, supportive relationships.</p>
       </section>
+      <img src={Alone3} alt="woman happy alone" className="image1" />
 
       <section>
         <h2>Enjoying Solitude</h2>
@@ -43,6 +45,7 @@ const Loneliness = () => {
         </ul>
         <p>Embrace your alone time by setting aside regular periods for solitude, creating a comfortable and inspiring environment, and engaging in activities that you love and that rejuvenate you.</p>
       </section>
+      <img src={Alone2} alt="woman alone in nature" className="image1" />
 
       <section>
         <h2>Combating Loneliness</h2>

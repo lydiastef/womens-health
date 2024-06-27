@@ -27,12 +27,16 @@ li {
 }
 
 .image {
-    width: 400px;
+    width: 320px;
     margin: -1rem auto;
 }
 
 .image1 {
     width: 400px;
+}
+
+.image2 {
+    width: 304px;
 }
 
 @media (min-width: 768px) {
@@ -41,12 +45,16 @@ li {
     }
 
     .image {
-        width: 600px;
+        width: 520px;
         margin: -2rem auto;
     }
 
     .image1 {
         width: 600px;
+    }
+
+    .image2 {
+        width: 504px;
     }
 
 }
@@ -57,12 +65,17 @@ li {
     }
 
     .image {
-        width: 800px;
+        width: 600px;
     }
 
     .image1 {
         width: 800px;
         margin-bottom: 2rem;
+    }
+
+    .image2 {
+        width: 600px;
+        height: 344px;
     }
 
 

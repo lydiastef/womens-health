@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css'
+import Pots from '../images/pots.avif'
+import Bp from '../images/bp.avif'
 
 const PotsArticle = () => {
   return (
@@ -9,6 +11,8 @@ const PotsArticle = () => {
       <h2>Get Inspired and Empowered to Live Healthier Lives. Join us for practical advice, supportive community, and tips that make a real difference.</h2>
 
       <p>Postural orthostatic tachycardia syndrome (POTS) is a long-term condition that affects the autonomic nervous system. People with POTS experience symptoms like fatigue, dizziness, fast heartbeats, exercise intolerance, brain fog, and sometimes fainting when they stand up. To diagnose POTS, doctors look for these symptoms along with a significant increase in heart rate within the first ten minutes of standing up. Importantly, this should happen without a drop in blood pressure and should not be due to other factors like dehydration, anemia, certain medications, or long periods of bed rest.</p>
+
+      <img src={Pots} alt="woman with pots" className="image1" />
 
       <p>POTS mostly affects women more than men, with a ratio of 5:1. It can be very disabling and the long delays in getting a diagnosis and proper care can cause a lot of emotional stress. This article will explain new findings about the causes and treatments of POTS in simple terms.</p>
 
@@ -29,6 +33,8 @@ const PotsArticle = () => {
       <h2>Diagnosing POTS</h2>
 
       <p>To diagnose POTS, doctors start by asking about symptoms, other health conditions, and factors that might make symptoms worse. They also check diet, exercise habits, and medications. A detailed examination includes checking heart rate and blood pressure while lying down and standing up. Basic lab tests, like blood counts and thyroid function tests, help rule out other conditions. A tilt-table test might be used to confirm the diagnosis by monitoring heart rate and blood pressure changes when moving from lying down to standing up.</p>
+
+      <img src={Bp} alt="blood pressure" className="image2" />
 
       <h2>Treating POTS</h2>
 
