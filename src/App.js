@@ -4,10 +4,12 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import HealthTopics from './pages/health';
 import Fitness from './pages/fitness';
+import Fertility from './pages/fertility';
 import Pots from './posts/pots';
 import FemaleTraining from './posts/female-training';
 import Mediterranean from './posts/mediterranean';
 import Loneliness from './posts/loneliness';
+import FertilityDiet from './posts/fertilitydiet';
 import './App.css';
 import mainImage from './images/women2.avif';
 
@@ -52,11 +54,13 @@ function App() {
                         } />
                         <Route path="/health" element={<HealthTopics />} />
                         <Route path="/fitness" element={<Fitness />} />
+                        <Route path="/fertility" element={<Fertility />} />
 
                         <Route path="/pots" element={<Pots />} />
                         <Route path="/female-training" element={<FemaleTraining />} />
                         <Route path="/mediterranean" element={<Mediterranean />} />
                         <Route path="/loneliness" element={<Loneliness />} />
+                        <Route path="/fertilitydiet" element={<FertilityDiet />} />
                     </Routes>
                 </main>
                 <Footer />

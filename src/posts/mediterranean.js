@@ -1,7 +1,5 @@
 import React from 'react';
 import './style.css'
-import Contraceptives from '../images/contraceptives.avif'
-import Running from '../images/running.avif'
 import Mediterranean from '../images/mediterranean.avif'
 
 

@@ -11,7 +11,7 @@ function HealthTopics() {
             <div className="topics-list">
                 <div className="topic">
                 <img src={Strength} alt="strong woman" className="page-image" />
-                <h3>Nutrition</h3>
+                <h3>Pots</h3>
                     <p>Learn about the best nutrition practices for a healthy lifestyle.</p>
                     <Link to="/pots" className="btn"> Read more</Link>
                 </div>

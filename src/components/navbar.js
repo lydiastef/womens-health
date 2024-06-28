@@ -24,6 +24,9 @@ const Navbar = () => {
                 <Link to="/fitness">Fitness & Nutrition</Link>
                 </div>
                 <div className="navbar-item">
+                <Link to="/fertility">Fertility & Pregnancy</Link>
+                </div>
+                <div className="navbar-item">
                     <a href="#conditions">Conditions & Diseases</a>
                 </div>
                 <div className="navbar-item">
