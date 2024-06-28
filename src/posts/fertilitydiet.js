@@ -121,14 +121,25 @@ const BlogPost = () => {
           <p>Absolutely. Regular exercise, stress management, avoiding harmful substances, and maintaining a healthy weight are all lifestyle changes that can improve fertility.</p>
         </section>
 
-        <footer>
+        <section>
           <h2>Conclusion</h2>
           <p>The growing body of research underscores the potential of dietary interventions to improve fertility outcomes. Adopting anti-inflammatory and Mediterranean dietary patterns could offer a low-cost, accessible strategy to enhance reproductive health. However, the variability in study findings highlights the need for further research to provide clear, actionable guidelines. For couples struggling with infertility, integrating healthy dietary practices into their lifestyle could be a valuable step towards achieving their fertility goals.</p>
           <p>As we continue to explore the complex relationship between diet and fertility, it becomes increasingly clear that what we eat can significantly impact our ability to conceive. By prioritizing whole, nutrient-rich foods and reducing inflammatory and processed foods, we can support our reproductive health and increase the chances of successful conception and healthy pregnancies.</p>
+        </section>
 
-          <div style={{ marginTop: '2em', fontWeight: 'bold', textAlign: 'center' }}>
-          </div>
-        </footer>
+        <h4>References:</h4>
+        <ul>
+            <li>
+            Alesi, S. et al. (2022). Anti-inflammatory diets in fertility: An evidence review. <i>Nutrients</i>.
+            </li>
+            <li>
+            Skoracka, K. et al. (2021). Female fertility and the nutritional approach: The most essential aspects. <i>Advances in Nutrition</i>.
+            </li>
+            <li>
+            Winter, H. G. et al. (2023). Can dietary patterns impact fertility outcomes? A systematic review and meta-analysis. <i>Nutrients</i>.
+            </li>
+        </ul>
+
       </article>
     </div>
   );
