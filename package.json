@@ -1,8 +1,7 @@
 {
-  "name": "womens-health",
+  "name": "feminafocus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lydiast.github.io/womens-health",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
