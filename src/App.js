@@ -5,11 +5,13 @@ import Footer from './components/footer';
 import HealthTopics from './pages/health';
 import Fitness from './pages/fitness';
 import Fertility from './pages/fertility';
+import Conditions from './pages/conditions';
 import Pots from './posts/pots';
 import FemaleTraining from './posts/female-training';
 import Mediterranean from './posts/mediterranean';
 import Loneliness from './posts/loneliness';
 import FertilityDiet from './posts/fertilitydiet';
+import PMDD from './posts/pmdd';
 import './App.css';
 import mainImage from './images/women2.avif';
 import Strength from './images/strength.avif';
@@ -65,12 +67,14 @@ function App() {
                     <Route path="/health" element={<HealthTopics />} />
                     <Route path="/fitness" element={<Fitness />} />
                     <Route path="/fertility" element={<Fertility />} />
+                    <Route path="/conditions" element={<Conditions />} />
 
                     <Route path="/pots" element={<Pots />} />
                     <Route path="/female-training" element={<FemaleTraining />} />
                     <Route path="/mediterranean" element={<Mediterranean />} />
                     <Route path="/loneliness" element={<Loneliness />} />
                     <Route path="/fertilitydiet" element={<FertilityDiet />} />
+                    <Route path="/pmdd" element={<PMDD />} />
                     </Routes>
                 </main>
                 <Footer />
