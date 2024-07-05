@@ -2,10 +2,16 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Disclaimer from './components/disclaimer';
+import Privacy from './components/privacypolicy';
+import Terms from './components/termsofuse';
+import Cookies from './components/cookie';
+
 import HealthTopics from './pages/health';
 import Fitness from './pages/fitness';
 import Fertility from './pages/fertility';
 import Conditions from './pages/conditions';
+
 import Pots from './posts/pots';
 import FemaleTraining from './posts/female-training';
 import Mediterranean from './posts/mediterranean';
@@ -13,6 +19,7 @@ import Loneliness from './posts/loneliness';
 import FertilityDiet from './posts/fertilitydiet';
 import PMDD from './posts/pmdd';
 import './App.css';
+
 import mainImage from './images/women2.avif';
 import Strength from './images/strength.avif';
 import { Link } from 'react-router-dom';
@@ -75,6 +82,13 @@ function App() {
                     <Route path="/loneliness" element={<Loneliness />} />
                     <Route path="/fertilitydiet" element={<FertilityDiet />} />
                     <Route path="/pmdd" element={<PMDD />} />
+
+                    <Route path="/disclaimer" element={<Disclaimer />} />
+                    <Route path="/privacypolicy" element={<Privacy />} />
+                    <Route path="/termsofuse" element={<Terms />} />
+                    <Route path="/cookie" element={<Cookies />} />
+
+
                     </Routes>
                 </main>
                 <Footer />

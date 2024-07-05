@@ -4,3 +4,28 @@ footer {
     text-align: center;
     color: #333;
 }
+
+.footer-items {
+    font-size: 12px;
+}
+
+.disclaimerp {
+    line-height: 16px;
+}
+
+@media (min-width: 768px) {
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-items {
+    width: 33%;
+    font-size: 13px;
+    margin: auto 1rem;
+}
+
+}

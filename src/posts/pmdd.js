@@ -113,6 +113,17 @@ const PMDDArticle = () => {
         <h2>Conclusion</h2>
         <p>PMDD is a severe and often misunderstood condition that can significantly affect a woman's quality of life. Understanding the symptoms and getting appropriate treatment can help manage this disorder. If you suspect you have PMDD, it's important to consult a healthcare provider for guidance and support. Understanding the condition and seeking appropriate care can make a huge difference in improving your overall well-being.</p>
       </section>
+      
+      <h4>References:</h4>
+        <ul>
+            <li>
+            Sundström-Poromaa, I., & Comasco, E. (2023). New pharmacological approaches to the management of premenstrual dysphoric disorder. <i>CNS Drugs</i>.
+            </li>
+            <li>
+            Tiranini, L., & Nappi, R. E. (2022). Recent advances in understanding/management of premenstrual dysphoric disorder/premenstrual syndrome. <i>Fac Rev</i>.
+            </li>
+        </ul>
+
     </div>
   );
 }
