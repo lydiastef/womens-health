@@ -40,7 +40,7 @@ function App() {
                         <div className="welcome-text">
                             <h1>Welcome to All About Women</h1>
                         </div>
-                        </div>
+                    </div>
                         <section className="content-section">
                             <h2>About Us</h2>
                             <p>Welcome to FeminaFocus, where our commitment is to deliver top-notch health and wellness information for women, backed by the latest research. Our mission is to empower you to live a healthier, happier life.</p> 

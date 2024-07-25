@@ -66,12 +66,18 @@
       flex-direction: row;
       flex-wrap: wrap;
       gap: 2rem;
+      margin-top: 4rem;
     }
   
     .topic {
       flex: 1 1 calc(30% - 2rem);
       box-sizing: border-box;
       width: 280px;
+      height: 504px;
+    }
+
+    .welcome-text {
+      margin: auto 2rem;
     }
   }
   

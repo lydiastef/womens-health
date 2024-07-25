@@ -3,77 +3,75 @@
 
 <!--Pages-->
    
-   
-   <!--<url>
-      <loc>https://www.runnersventure.com/</loc>
+   <url>
+      <loc>https://www.feminafocus.com/</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://www.runnersventure.com/running.html</loc>
+      <loc>https://www.feminafocus.com/health</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://www.runnersventure.com/races.html</loc>
+      <loc>https://www.feminafocus.com/fitness</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://www.runnersventure.com/running-gear.html</loc>
+      <loc>https://www.feminafocus.com/fertility</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://www.runnersventure.com/training-plans.html</loc>
+      <loc>https://www.feminafocus.com/conditions</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
-   <url>
-      <loc>https://www.runnersventure.com/converter.html</loc>
-      <lastmod>2023-06-06</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.runnersventure.com/about.html</loc>
-      <lastmod>2023-06-06</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
-   </url>
--->
-
+   
    <!--Blog Posts-->
-   <!--
+
    <url>
-      <loc>https://runnersventure.com/posts/3k.html</loc>
+      <loc>https://feminafocus.com/pmdd</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://runnersventure.com/posts/7-gear-items.html</loc>
+      <loc>https://www.feminafocus.com/female-training</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://runnersventure.com/posts/beginner-marathons.html</loc>
+      <loc>https://www.feminafocus.com/loneliness</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://runnersventure.com/posts/beginner-shoes.html</loc>
+      <loc>https://www.feminafocus.com/fertilitydiet</loc>
       <lastmod>2023-06-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
+   <url>
+      <loc>https://www.feminafocus.com/mediterranean</loc>
+      <lastmod>2023-06-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.feminafocus.com/pots</loc>
+      <lastmod>2023-06-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
 
 </urlset>
--->
